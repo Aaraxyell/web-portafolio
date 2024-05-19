@@ -1,0 +1,42 @@
+/*Importar los distintos estilos*/
+@import url(reset.css);
+@import url(menu.css);
+@import url(title.css);
+@import url(about.css);
+@import url(skills.css);
+@import url(hobbies.css);
+@import url(education.css);
+@import url(experience.css);
+@import url(contactme.css);
+@import url(footer.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+
+:root {
+  --Rich-black: #031926;
+  --Teal: #468189;
+  --Cambridge-blue: #77aca2;
+  --Ash-gray: #9dbebb;
+  --Parchment: #f4e9cd;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    var(--Rich-black),
+    var(--Teal),
+    var(--Cambridge-blue)
+  );
+  font-family: "Raleway";
+  margin: 16px 16px;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Estilos para pantallas de 1025px o más */
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: 1vw;
+  }
+}

@@ -1,0 +1,350 @@
+:root {
+  --Rich-black: #031926;
+  --Teal: #468189;
+  --Cambridge-blue: #77aca2;
+  --Ash-gray: #9dbebb;
+  --Parchment: #f4e9cd;
+  --Turq: #03e9f4;
+}
+
+/*Contact Me*/
+
+/* Mobile First*/
+.formcontato__contacto img {
+  display: none;
+}
+
+.formcontato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--Parchment);
+  padding: 10px;
+}
+
+.formcontato__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcontato__contacto label {
+  font-size: 12px;
+  color: var(--Turq);
+}
+
+#nombre::placeholder {
+  color: var(--Ash-gray);
+}
+
+#email::placeholder {
+  color: var(--Ash-gray);
+}
+
+#asunto::placeholder {
+  color: var(--Ash-gray);
+}
+
+#mensaje::placeholder {
+  color: var(--Ash-gray);
+}
+
+.formcontato__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formcontato__subtext {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formcontato__img {
+  width: 200px;
+  height: auto;
+}
+
+.formcontato__form {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.formcontato__input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--Parchment);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid var(--Parchment);
+  outline: none;
+  background: transparent;
+}
+
+.formcontato__textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--Parchment);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid var(--Parchment);
+  outline: none;
+  background: transparent;
+}
+
+.formcontato__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  color: var(--Turq);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 40px 0 40px 0;
+  letter-spacing: 4px;
+  border: 1px solid var(--Turq);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formcontato__botao:hover {
+  background: var(--Rich-black);
+  color: var(--Parchment);
+}
+
+.formcontato__botao:focus {
+  outline: none;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .formcontato__contacto img {
+    display: none;
+  }
+
+  .formcontato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--Parchment);
+    padding: 10px;
+  }
+
+  .formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formcontato__contacto label {
+    font-size: 12px;
+    color: var(--Turq);
+  }
+
+  #nombre::placeholder {
+    color: var(--Ash-gray);
+  }
+
+  #email::placeholder {
+    color: var(--Ash-gray);
+  }
+
+  #asunto::placeholder {
+    color: var(--Ash-gray);
+  }
+
+  #mensaje::placeholder {
+    color: var(--Ash-gray);
+  }
+
+  .formcontato__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .formcontato__subtext {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .formcontato__img {
+    width: 200px;
+    height: auto;
+  }
+
+  .formcontato__form {
+    margin: 32px 0 32px 60px;
+    width: 500px;
+  }
+
+  .formcontato__input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--Parchment);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--Parchment);
+    outline: none;
+    background: transparent;
+  }
+
+  .formcontato__textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--Parchment);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--Parchment);
+    outline: none;
+    background: transparent;
+  }
+
+  .formcontato__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--Turq);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 40px 0 40px 30px;
+    letter-spacing: 4px;
+    border: 1px solid var(--Turq);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .formcontato__botao:hover {
+    background: var(--Rich-black);
+    color: var(--Parchment);
+  }
+
+  .formcontato__botao:focus {
+    outline: none;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+  .formcontato__contacto img {
+    margin-left: 2vw;
+    display: flex;
+    height: 30vw;
+    width: auto;
+    border: 1px solid var(--Turq);
+    border-radius: 80px;
+  }
+
+  .formcontato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--Parchment);
+    padding: 10px;
+  }
+
+  .formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vw;
+  }
+
+  .formcontato__contacto label {
+    font-size: 0.7vw;
+    color: var(--Turq);
+  }
+
+  .formcontato__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .formcontato__title {
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 6vw;
+    margin-bottom: 6vh;
+    text-align: center;
+  }
+
+  .formcontato__subtext {
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    margin-left: 6vw;
+    text-align: center;
+  }
+
+  .formcontato__img {
+    width: 5vw;
+    height: 10vw;
+  }
+
+  .formcontato__form {
+    margin: 3vw 0 3vw 6vw;
+    width: 50%;
+  }
+
+  .formcontato__input,
+  .formcontato__textarea {
+    width: 100%;
+    padding: 1vw 0;
+    font-size: 1vw;
+    color: var(--Parchment);
+    margin-bottom: 1vw;
+    border: none;
+    border-bottom: 1px solid var(--Parchment);
+    outline: none;
+    background: transparent;
+  }
+
+  .formcontato__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--Turq);
+    font-size: 1vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 1vw 0 4vw 0;
+    letter-spacing: 4px;
+    border: 1px solid var(--Turq);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .formcontato__botao:hover {
+    background: var(--Rich-black);
+    color: var(--Parchment);
+  }
+
+  .formcontato__botao:focus {
+    outline: none;
+  }
+}

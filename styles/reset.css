@@ -1,0 +1,155 @@
+/* reset.css */
+
+/* Establecer estilos básicos a 0 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Corregir el espaciado de la lista y la visibilidad en IE */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Ajustar los márgenes del cuerpo y la fuente para una buena legibilidad */
+body {
+  line-height: 1;
+}
+
+/* Ajustar la legibilidad del texto */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Ajustar la legibilidad del texto */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Establecer un estilo básico para el hipervínculo */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Establecer la visibilidad del contenido embebido */
+embed,
+iframe,
+object,
+audio,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Eliminar los bordes de la imagen */
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Eliminar los estilos predeterminados del marcador */
+::marker {
+  display: none;
+}
+
+/* Evitar que los elementos inline afecten el diseño */
+strong {
+  font-weight: bold;
+}
